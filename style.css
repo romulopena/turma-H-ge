@@ -1,13 +1,14 @@
+/*SELETOR UNIVERSAL*/
 *{
     margin: 0;
     padding: 0;
 }
-
+/*CORPO*/
 body{
-    font-family: sans-serif;
     font-family: 'Inter', sans-serif;
     
 }
+/*SEÇÃO CABEÇALHO*/
 .cabecalho{
     background-color: #12C8D3;
     color: white;
@@ -29,19 +30,28 @@ body{
     background-image: linear-gradient(#17A8B0,#cbeded);
     color: white;
     font-size: 21px;
-    padding: 80px 150px;
-    display: flex;
-    justify-content: space-around;
+    padding: 20px 10px;   
 }
 
 .escola-titulo{
-    padding-top: 24px;
-    
+    text-align: center;
+    margin: 20px;
 }
 
-.escola-imagem{
-    width: 150px;
+div{
+    display: flex;
+    padding: 20px 100px;
 }
+
+.escola-paragrafo{
+    text-align: justify;
+}
+.escola-imagem{
+    width: 300px;
+    height: 234px;
+}
+
+/*SEÇÃO ESTUDANTE*/
 .estudante{
     background-image: linear-gradient(#154567,#15456710);
     color: white;
@@ -56,13 +66,13 @@ body{
 }
 
 .estudante-div-maior{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .estudante-div{
     text-align: center;
-    display: grid;
+    
     
 }
 
