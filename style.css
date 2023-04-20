@@ -6,6 +6,8 @@
 /*CORPO*/
 body{
     font-family: 'Inter', sans-serif;
+    width: 1440px;
+    
     
 }
 /*SEÇÃO CABEÇALHO*/
@@ -25,17 +27,18 @@ body{
     display: inline-block;
     padding: 0px 20px;
 }
-
-.escola{
+/*SEÇÃO TURMA*/
+.turma{
     background-image: linear-gradient(#17A8B0,#cbeded);
     color: white;
     font-size: 21px;
     padding: 20px 10px;   
 }
 
-.escola-titulo{
+.turma-titulo{
     text-align: center;
     margin: 20px;
+    font-size: 40px;
 }
 
 div{
@@ -43,17 +46,17 @@ div{
     padding: 20px 100px;
 }
 
-.escola-paragrafo{
+.turma-paragrafo{
     text-align: justify;
 }
-.escola-imagem{
+.turma-imagem{
     width: 300px;
     height: 234px;
 }
 
 /*SEÇÃO ESTUDANTE*/
 .estudante{
-    background-image: linear-gradient(#154567,#15456710);
+    background-image: linear-gradient(#154567,#15456700);
     color: white;
 }
 .estudante-imagem{
@@ -62,20 +65,34 @@ div{
 
 .estudante-titulo{
     text-align: center;
-    padding-bottom: 50px;
+    padding: 50px 0;
+    font-size: 40px;
 }
 
 .estudante-div-maior{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .estudante-div{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
     
-    
+}
+
+.estudante-item{
+    list-style-type: none;
+}
+
+.estudante-imagem{
+    width: 114px;
+    height: 113px;
 }
 
 .estudante-git{
     text-align: center;
+    width: 44px;
+    height: 46px;
 }
