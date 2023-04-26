@@ -72,17 +72,18 @@ div{
 .estudante-div-maior{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 0 60px;
 }
 
 .estudante-div{
-    display: flex;
-    
+    text-align: center;
+    padding: 12px 0;
 }
 
 .estudante-imagem{
     width: 114px;
     height: 113px;
-    text-align: center;
+    
 }
 
 .estudante-git{
@@ -92,5 +93,11 @@ div{
 }
 
 .estudante-nome{
+    color:black;
+}
+
+ul{
+    list-style-type: none;
+    
 
 }
