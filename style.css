@@ -58,9 +58,7 @@ div{
 .estudante{
     background-image: linear-gradient(#154567,#15456700);
     color: white;
-}
-.estudante-imagem{
-    width: 120px;
+
 }
 
 .estudante-titulo{
@@ -69,35 +67,19 @@ div{
     font-size: 40px;
 }
 
-.estudante-div-maior{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    padding: 0 60px;
-}
 
 .estudante-div{
-    text-align: center;
-    padding: 12px 0;
+
+
 }
 
 .estudante-imagem{
     width: 114px;
-    height: 113px;
-    
+    height: 113px;  
 }
 
 .estudante-git{
-    
     width: 44px;
     height: 43px;
 }
 
-.estudante-nome{
-    color:black;
-}
-
-ul{
-    list-style-type: none;
-    
-
-}
