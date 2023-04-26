@@ -68,9 +68,16 @@ div{
 }
 
 
+.estudante-div-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
 .estudante-div{
-
-
+    display: grid;
+    margin: auto;
+    text-align: center;
 }
 
 .estudante-imagem{
@@ -81,5 +88,20 @@ div{
 .estudante-git{
     width: 44px;
     height: 43px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.estudante-nome{
+    color:black;
+}
+
+.rodape{
+    background-color: rgba(0, 0, 0, 0.789);
+    color:white;
+    text-align: center;
+    padding: 30px 0;
 }
 
