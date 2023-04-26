@@ -70,29 +70,27 @@ div{
 }
 
 .estudante-div-maior{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .estudante-div{
     display: flex;
-    justify-content: center;
-    padding: 0 10px;
     
-}
-
-.estudante-item{
-    list-style-type: none;
 }
 
 .estudante-imagem{
     width: 114px;
     height: 113px;
+    text-align: center;
 }
 
 .estudante-git{
-    text-align: center;
+    
     width: 44px;
-    height: 46px;
+    height: 43px;
+}
+
+.estudante-nome{
+
 }
