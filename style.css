@@ -13,7 +13,7 @@ body{
 /*SEÇÃO CABEÇALHO*/
 .cabecalho{
     background-color: #12C8D3;
-    color: white;
+    color: orange
     display: flex;
     padding: 24px;
     font-size: 24px;
